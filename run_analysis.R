@@ -35,5 +35,5 @@ dataMerged[ ,2] <- activityLabels[dataMerged[ ,2], 2]
 ## create dataset with the average of each variable for each activity and each subject
 tidyData <- aggregate(dataMerged[,3:81], by=list(subject=dataMerged$subject,activity=dataMerged$activity), FUN=mean)
 
-## write new dataset to file names tidydata.txt
+## write new dataset to file named tidydata.txt
 write.table(tidyData, file='tidydata.txt', row.names=FALSE)

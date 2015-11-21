@@ -13,6 +13,6 @@ The R script does the following:
 * Filter dataset and keep activity, subject and matched columns
 * Replace the numeric activity data with their name from the activitylabels file
 * Create dataset with the average of each variable for each activity and each subject
-* Write new dataset to file names tidydata.txt
+* Write new dataset to file named tidydata.txt
 
 Outcome of the script is saved in a generated tidydata.txt file.
