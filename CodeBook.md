@@ -42,7 +42,16 @@ For each record in the dataset it is provided:
 
 ## Creating the tidy data file
 
+### Create file
 To create the tidy data file the raw data source has to be downloaded and placed within the working directory of the R script. After placing the data the run_analysis.R script should be used which will produce the dataset in a file named: tidydata.txt.
+
+### Cleaning of the data
+The R script does the following:
+* Merges the training and the test sets to create one data set.
+* Extracts only the measurements on the mean and standard deviation for each measurement. 
+* Uses descriptive activity names to name the activities in the data set
+* Appropriately labels the data set with descriptive variable names. 
+* From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each  activity and each subject.
 
 ## Description of the variables in the tidydata.txt file
 
