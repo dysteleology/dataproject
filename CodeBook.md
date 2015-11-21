@@ -59,7 +59,10 @@ The R script does the following:
 The tidydata file contains a data set of 180 observations with 81 variables. It contains the average of each variable for each activity and each subject on measurements on the mean and standard deviation.
 
 ### List of variables
-* subject
+* name: subject
+  class: int
+  Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+    1.0     8.0    15.5    15.5    23.0    30.0 
 * activity
 * tBodyAcc-mean()-X
 * tBodyAcc-mean()-Y
